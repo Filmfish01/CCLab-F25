@@ -40,7 +40,7 @@ function draw() {
   if (particles.length > MAX_OF_PARTICLES) {
     particles.splice(0, 1); // remove the first (oldest) particle
   }
-  ellipse(200, 200, 50,50)
+
 }
 
 class Particle {
