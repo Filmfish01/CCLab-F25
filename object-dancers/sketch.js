@@ -198,6 +198,9 @@ class EyeDancer_not_working {
     this.eye_x = noise(frameCount * 0.05) * 1 + sin(frameCount * 0.05) * 1
   
     this.m_rect(this.rect_x + this.eye_x , this.rect_y , 20, 20,this.rect_x_scale, this.rect_y_scale )
+
+    
+
     rect(200, 200,50,50)
 
 
